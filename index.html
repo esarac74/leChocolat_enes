@@ -150,20 +150,22 @@
                                 <input type="time" class="form-control" id="timeInput">
                             </div>
                         </div>
-<div class="row">
-    <label class="col-12 col-sm-3">Home Delivery</label>
-    <div class="col-12 col-sm">
-        <div class="btn-group" role="group" aria-label="Home-delivery">
-            <label class="btn btn-success active" for="yes"><input type="radio" name="delivery" id="yes" autocomplete="off" checked="checked"> Yes</label>
+                        <div class="row">
+                            <label class="col-12 col-sm-3">Home Delivery</label>
+                            <div class="col-12 col-sm">
+                                <div class="btn-group" role="group" aria-label="Home-delivery">
+                                    <label class="btn btn-success active" for="yes"><input type="radio" name="delivery"
+                                            id="yes" autocomplete="off" checked="checked"> Yes</label>
 
-            <label class="btn btn-danger" for="no"><input type="radio" name="delivery" id="no" autocomplete="off"> No</label>
-              
-        </div>
-        
-    </div>
-</div>
-                        
-                        
+                                    <label class="btn btn-danger" for="no"><input type="radio" name="delivery" id="no"
+                                            autocomplete="off"> No</label>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
                     </form>
                 </div>
                 <div class="modal-footer">
@@ -216,7 +218,14 @@
         <div class="row row-content">
             <div class="col-12">
                 <div id="mycarousel" class="carousel slide" data-ride="carousel">
-
+                    <div class="btn-group" id="carouselButtons">
+                        <button class="btn btn-danger btn-sm" id="carousel-pause">
+                          <span class="fa fa-pause"></span>
+                        </button>
+                        <button class="btn btn-danger btn-sm" id="carousel-play">
+                          <span class="fa fa-play"></span>
+                        </button>
+                    </div>
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
                             <img src="images/dark85.jpg" alt="85% DARK CHOCOLATE">
@@ -330,7 +339,7 @@
             </div>
 
         </div>
-      <!--  <div class="row row-content align-items-center justify-content-center">
+        <!--  <div class="row row-content align-items-center justify-content-center">
             <div class="col-12 col-sm-8">
                 <div class="card">
                     <h3 class="card-header bg-warning text-white" id="thiscard">Reserve Your Baskets</h3>
@@ -459,7 +468,7 @@
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script>
+    <script src="js/scripts.js"></script>
 
 </body >
 
